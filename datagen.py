@@ -61,7 +61,7 @@ def gendata(N=1000,params=None,plot=True,plot_samples=-1):
             ax1.set_xlim([N-plot_samples,N])
         plotprobs(pxs,ax2,plot_samples=plot_samples)
     return x,y
-#see the probability of Montana coming back to your store/hotel/etc
+# see the probability of Montana coming back to your store/hotel/etc
 def plotprobs(probs,ax=None,plot_samples=-1,estimate=False):
     L,N = probs.shape
     if ax is None:

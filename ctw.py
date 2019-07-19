@@ -9,7 +9,7 @@ class CTW:
         # number of recent sideinfo samples to ignore
         self.K = staleness
         # number of symbols with side info (for contexts)
-        self.Mtot = symbols*sidesymbols
+        self.mTot = symbols*sidesymbols
         # create list of "restricted" contexts (no side info)
         self.rcontexts = range(symbols)
         # create list of "complete" contexts (w/ side info)
